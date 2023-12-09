@@ -1,0 +1,49 @@
+/* ReviewPrediction.css */
+
+.review-prediction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #001f3f; /* Dark blue background */
+    color: #fff; /* White text color */
+  }
+  
+  .review-prediction-header {
+    margin-bottom: 20px;
+  }
+  
+  .review-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #001f3f; /* Dark blue background for the input */
+    color: #fff; /* White text color */
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #0074cc; /* A slightly lighter blue for the button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .prediction-result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
